@@ -15,36 +15,36 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
-@Table(name="student")
+@Table(name = "student")
 public class Student {
 
 	@Id
 	@GeneratedValue
 	private Long id;
-	
+
 	@NotEmpty
-	@Size(min=4, max=20)
+	@Size(min = 4, max = 20)
 	private String userName;
-	
+
 	@NotEmpty
 	private String firstName;
-	
+
 	@NotEmpty
 	private String lastName;
-	
+
 	@NotEmpty
-	@Size(min=4, max=8)
+	@Size(min = 4, max = 8)
 	private String password;
-	
+
 	@NotEmpty
 	@Email
 	private String emailAddress;
-	
+
 	@NotNull
 	@Past
-	@DateTimeFormat(pattern="MM/dd/yyyy")
+	@DateTimeFormat(pattern = "MM/dd/yyyy")
 	private Date dateOfBirth;
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -99,5 +99,5 @@ public class Student {
 
 	public void setDateOfBirth(Date dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
-	}	
+	}
 }
