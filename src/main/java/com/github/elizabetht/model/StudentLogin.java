@@ -1,4 +1,5 @@
 package com.github.elizabetht.model;
+// pojo class for setting username and password.
 
 import javax.validation.constraints.Size;
 
@@ -29,4 +30,5 @@ public class StudentLogin {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
+	
 }
