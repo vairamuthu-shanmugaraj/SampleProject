@@ -1,5 +1,8 @@
 package com.github.elizabetht.model;
-// pojo class for setting username and password.
+
+/*
+ *Creating Entity for Student Login 
+ */
 
 import javax.validation.constraints.Size;
 

@@ -1,5 +1,10 @@
 package com.github.elizabetht.model;
 
+/*
+ * Creating Entity for Student 
+ */
+	
+		
 import java.util.Date;
 
 import javax.persistence.Entity;
