@@ -1,6 +1,6 @@
 package com.github.elizabetht.controller;
 
-// added comments
+//  Student controller
 
 import javax.validation.Valid;
 
