@@ -1,6 +1,6 @@
 package com.github.elizabetht.repository;
 
-// Creating the Interface for student repository.
+// Creating the Interface for student
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
