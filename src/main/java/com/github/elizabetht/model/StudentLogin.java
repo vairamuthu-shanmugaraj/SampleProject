@@ -1,7 +1,7 @@
 package com.github.elizabetht.model;
 
 /*
- *Creating Entity for Student Login 
+ *Entity for Student Login 
  */
 
 import javax.validation.constraints.Size;

@@ -1,7 +1,7 @@
 package com.github.elizabetht.model;
 
 /*
- * Creating Entity for Student 
+ * Entity for Student 
  */
 	
 		
