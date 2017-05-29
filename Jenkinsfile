@@ -11,5 +11,14 @@ pipeline {
         echo 'hello'
       }
     }
+    
+    stage 'Compile'
+    {
+    def mvnHome = tool 'maven-3'
+    sh "${mvnHome}/bin/mvn clean install -DskipTests"
+    stash 'working-copy'
+}
+    
+    
   }
 }
